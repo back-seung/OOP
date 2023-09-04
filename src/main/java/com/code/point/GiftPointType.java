@@ -1,0 +1,1 @@
+package main.java.com.code.point;public enum GiftPointType {    STANDARD_MEMEBERSHIP_POINT(3000),    PREMIUM_MEMBERSHIP_POINT(10000);    private final int point;    GiftPointType(int point) {        this.point = point;    }    public int getPoint() {        return point;    }}
