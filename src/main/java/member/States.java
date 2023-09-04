@@ -1,0 +1,1 @@
+package main.java.member;public class States {    private String status;    private int speed;    public States(String status, int speed) {        this.status = status;        this.speed = speed;    }    public void add(StateType stateType) {        this.status = stateType.getStatus();        this.speed = stateType.getSpeed();    }}

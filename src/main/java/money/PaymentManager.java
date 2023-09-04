@@ -1,0 +1,1 @@
+package main.java.money;public class PaymentManager {    private float discountRate; // 할인율    // 인스턴스 메서드인 척하는 static 메서드 주의    // -> 인스턴스 변수를 전혀 사용하고 있지 않는다.    // 메서드 앞에 static 키워드를 붙혀도 무리없이 작동할 것.    int add(int moneyAmount1, int moneyAmount2) {        return moneyAmount1 + moneyAmount2;    }}
