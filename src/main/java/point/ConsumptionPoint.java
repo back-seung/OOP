@@ -1,1 +1,1 @@
-package main.java.point;public class ConsumptionPoint {    private final int value;    public ConsumptionPoint(int value) {        this.value = value;    }}
+package main.java.point;public class ConsumptionPoint {    private final int value;    public ConsumptionPoint(int value) {        this.value = value;    }    public int getValue() {        return value;    }}
