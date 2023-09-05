@@ -1,0 +1,1 @@
+package main.java.discount;public class ProductDiscount {    private final int id;    private final boolean canDiscount;    public ProductDiscount(int id, boolean canDiscount) {        this.id = id;        this.canDiscount = canDiscount;    }    public int getId() {        return id;    }    public boolean isCanDiscount() {        return canDiscount;    }}
