@@ -1,0 +1,1 @@
+package main.java.exam.isp;interface IBoat {    void steer();    void steerLeft();    void steerRight();}

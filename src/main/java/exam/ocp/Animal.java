@@ -1,0 +1,1 @@
+package main.java.exam.ocp;abstract class Animal {}

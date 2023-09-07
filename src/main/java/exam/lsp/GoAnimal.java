@@ -1,0 +1,1 @@
+package main.java.exam.lsp;class GoAnimal {    public static void main(String[] args) {        Animal eagle = new Eagle();//        애초에 실행되지도 않음//        eagle.go(10, true);        Animal cat = new Cat();        String result = cat.getType().print();        System.out.println(result);    }}

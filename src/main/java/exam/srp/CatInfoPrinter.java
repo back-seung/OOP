@@ -1,0 +1,1 @@
+package main.java.exam.srp;class CatInfoPrinter {    private final Cat cat;    CatInfoPrinter(Cat cat) {        this.cat = cat;    }    void print(Cat cat) {        System.out.println(cat.representation());    }}

@@ -1,0 +1,1 @@
+package main.java.exam.ocp;interface Speakable {    void speak();}

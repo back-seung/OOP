@@ -1,0 +1,1 @@
+package main.java.exam.dip;abstract class Cigarette {    private String name;    private int tar;    private int nicotine;    abstract void getCigaretteStatus();    abstract String getName();}

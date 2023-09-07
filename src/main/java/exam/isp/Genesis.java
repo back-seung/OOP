@@ -1,0 +1,1 @@
+package main.java.exam.isp;class Genesis implements ICar {    @Override    public void drive() {        System.out.println("Genesis를 운전함");    }    @Override    public void turnLeft() {        System.out.println("Genesis가 좌회전함");    }    @Override    public void turnRight() {        System.out.println("Genesis가 우회전함");    }}

@@ -1,0 +1,1 @@
+package main.java.exam.lsp;class NaturalType {    private String type;    NaturalType(Animal animal) {        if (animal instanceof Eagle) {            type = "조류";        } else if (animal instanceof Cat) {            type = "포유류";        }    }    String print() {        return "이 동물의 종류는" + this.type + "입니다";    }}

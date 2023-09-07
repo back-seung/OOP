@@ -1,0 +1,1 @@
+package main.java.exam.isp;class Avante implements ICar {    @Override    public void drive() {        System.out.println("Avante를 운전함");    }    @Override    public void turnLeft() {        System.out.println("Avante가 좌회전함");    }    @Override    public void turnRight() {        System.out.println("Avante가 우회전함");    }}

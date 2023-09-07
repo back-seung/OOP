@@ -1,0 +1,1 @@
+package main.java.exam.lsp;class Cat extends Animal {    // 사전에 약속한 기획대로 구현하고, 상속 시 부모에서 구현한 원칙을 따라야 한다.    // 아래는 이를 위반한다.    @Override    NaturalType getType() {        return null;    }    String getName() {        return "이 동물의 종류는 포유류 입니다.";    }}

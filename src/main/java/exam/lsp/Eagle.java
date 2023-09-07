@@ -1,0 +1,1 @@
+package main.java.exam.lsp;class Eagle extends Animal {    // 부모의 시그니처 메소드를 맘대로 바꿔버렸다.    String go(int distance, boolean flying) {        if (flying) {            return distance + "만큼 날아서 갔습니다.";        } else {            return distance + "만큼 걸아서 갔습니다.";        }    }}

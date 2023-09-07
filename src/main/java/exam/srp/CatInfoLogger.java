@@ -1,0 +1,1 @@
+package main.java.exam.srp;import java.util.logging.Logger;public class CatInfoLogger {    private final Logger logger = Logger.getLogger(this.getClass().getName());    private final Cat cat;    CatInfoLogger(Cat cat) {        this.cat = cat;    }    void log() {        logger.info(cat.representation());    }}

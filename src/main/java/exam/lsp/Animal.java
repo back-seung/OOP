@@ -1,0 +1,1 @@
+package main.java.exam.lsp;abstract class Animal {    private static final int SPEED = 100;    public int go(int distance) {        return SPEED * distance;    }    NaturalType getType() {        return new NaturalType(this);    }}
